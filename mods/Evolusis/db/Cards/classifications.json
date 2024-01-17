@@ -1,0 +1,42 @@
+[ 
+        {
+                "name": "Amphibian",
+        },
+        {
+                "name": "Reptile",
+        },
+        {
+                "name": "Mammal",
+        },
+        {
+                "name": "Ave",
+        },
+        // Mammalians
+        {
+                "name": "Ungulate",
+        },
+        {
+                "name": "Glires",
+        },
+        {
+                "name": "Chiroptera",
+        },
+        {
+                "name": "Cetacean",
+        },
+        {
+                "name": "Marsupial",
+        },
+        {
+                "name": "Carnivora",
+        },
+        {
+                "name": "Primate",
+        },
+        {
+                "name": "Homo",
+        },
+        {
+                "name": "Human",
+        }
+]
