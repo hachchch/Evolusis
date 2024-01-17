@@ -4,6 +4,7 @@
                 "type": "Land",
                 "classification": "Reptile",
                 "ai": "AttackerAI",
+                "hp": 200,
                 "atk": 60,
                 "def": 60,
                 "weight": 25
