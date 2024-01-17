@@ -8,7 +8,8 @@
                 "ai": "AttackerAI",
                 "hp": 200,
                 "atk": 60,
-                "def": 0
+                "def": 0,
+                "mov": 1
         },
         {
                 "name": "Sauropoda",
@@ -18,7 +19,8 @@
                 "ai": "TankAI",
                 "hp": 250,
                 "atk": 40,
-                "def": 0
+                "def": 0,
+                "mov": 1
         },
         {
                 "name": "Ankylosauria",
@@ -28,6 +30,7 @@
                 "ai": "TankAI",
                 "hp": 150,
                 "atk": 50,
-                "def": 50
+                "def": 50,
+                "mov": 1
         }
 ]
