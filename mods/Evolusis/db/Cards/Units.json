@@ -1,11 +1,24 @@
 [
+        // from Devonian
+        {
+                "name": "Elpistostegalia",
+                "requiredEra": ["Devonian"],
+                "type": "Amphibious",
+                "classification": "Amphibian",
+                "ai": "SurvivalAI",
+                "hp": 120,
+                "atk": 24,
+                "def": 0,
+                "mov": 1
+        },
+        // from Carboniferous
         {
                 "name": "Hylonomus",
                 "requiredEra": ["Carboniferous"],
                 "type": "Land",
                 "classification": "Reptile",
                 "ai": "AttackerAI",
-                "hp": 100,
+                "hp": 140,
                 "atk": 32,
                 "def": 0,
                 "mov": 2
