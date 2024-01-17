@@ -6,6 +6,24 @@
                 "ai": "AttackerAI",
                 "hp": 200,
                 "atk": 60,
-                "def": 0,
+                "def": 0
+        },
+        {
+                "name": "Sauropoda",
+                "type": "Land",
+                "classification": "Reptile",
+                "ai": "TankAI",
+                "hp": 250,
+                "atk": 40,
+                "def": 0
+        },
+        {
+                "name": "Ankylosauria",
+                "type": "Land",
+                "classification": "Reptile",
+                "ai": "TankAI",
+                "hp": 150,
+                "atk": 50,
+                "def": 50
         }
 ]
