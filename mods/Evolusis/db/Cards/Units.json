@@ -1,5 +1,28 @@
 [
+        // from Silurian
+        {
+                "name": "Placoderms",
+                "requiredEra": ["Devonian"],
+                "type": "Amphibious",
+                "classification": "Amphibian",
+                "ai": "AttackerAI",
+                "hp": 200,
+                "atk": 28,
+                "def": 12,
+                "mov": 3
+        },
         // from Devonian
+        {
+                "name": "Chondrichthyes",
+                "requiredEra": ["Devonian"],
+                "type": "Amphibious",
+                "classification": "Amphibian",
+                "ai": "AttackerAI",
+                "hp": 220,
+                "atk": 45,
+                "def": 0,
+                "mov": 3
+        },
         {
                 "name": "Elpistostegalia",
                 "requiredEra": ["Devonian"],
