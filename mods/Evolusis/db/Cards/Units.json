@@ -1,4 +1,15 @@
 [
+        {
+                "name": "Hylonomus",
+                "requiredEra": ["Carboniferous"],
+                "type": "Land",
+                "classification": "Reptile",
+                "ai": "AttackerAI",
+                "hp": 100,
+                "atk": 32,
+                "def": 0,
+                "mov": 2
+        },
         // from Permian
         {
                 "name": "Archosauria",
