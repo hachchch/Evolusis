@@ -1,5 +1,17 @@
 [
-        // Triassic
+        // from Permian
+        {
+                "name": "Archosauria",
+                "requiredEra": ["Permian"],
+                "type": "Land",
+                "classification": "Reptile",
+                "ai": "AttackerAI",
+                "hp": 180,
+                "atk": 50,
+                "def": 0,
+                "mov": 2
+        },
+        // from Triassic
         {
                 "name": "Saurischia",
                 "requiredEra": ["Triassic"],
@@ -9,7 +21,7 @@
                 "hp": 200,
                 "atk": 60,
                 "def": 0,
-                "mov": 1
+                "mov": 2
         },
         {
                 "name": "Sauropoda",
@@ -20,7 +32,7 @@
                 "hp": 250,
                 "atk": 40,
                 "def": 0,
-                "mov": 1
+                "mov": 2
         },
         {
                 "name": "Ankylosauria",
