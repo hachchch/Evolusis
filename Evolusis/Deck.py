@@ -3,7 +3,6 @@
 class Deck:
     def __init__(self):
         #デッキを構築する列
-        #ジョーカーを入れるオプションはつけてないらしい
         card_elem = ["spade","heart","clover","diamond"]
         self.deck = [elem + "_" + str(num) for num in range(1,14) for elem in card_elem]
 
