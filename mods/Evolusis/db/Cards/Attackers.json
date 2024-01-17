@@ -2,6 +2,7 @@
         // Triassic
         {
                 "name": "Saurischia",
+                "requiredEra": ["Triassic"],
                 "type": "Land",
                 "classification": "Reptile",
                 "ai": "AttackerAI",
@@ -11,6 +12,7 @@
         },
         {
                 "name": "Sauropoda",
+                "requiredEra": ["Triassic"],
                 "type": "Land",
                 "classification": "Reptile",
                 "ai": "TankAI",
@@ -20,6 +22,7 @@
         },
         {
                 "name": "Ankylosauria",
+                "requiredEra": ["Triassic"],
                 "type": "Land",
                 "classification": "Reptile",
                 "ai": "TankAI",
