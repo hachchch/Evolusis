@@ -4,7 +4,7 @@
                 "name": "Lepidodendron",
                 "requiredEra": ["Devonian"],
                 "classification": "Fern",
-                "type": Land,       
+                "type": "Land",
         },
         {
         }
