@@ -1,7 +1,61 @@
 [
         // from Anthropocene
         {
-                "name": "Industrial Complex",
+                "name": "Manufactory",
+        },
+        {
+                "name": "America",
+        },
+        {
+                "name": "Russia",
+        },
+        {
+                "name": "Japan",
+        },
+        {
+                "name": "Korea",
+        },
+        {
+                "name": "China",
+        },
+        {
+                "name": "Rome",
+        },
+        {
+                "name": "Spain",
+        },
+        {
+                "name": "Ottomans",
+        },
+        {
+                "name": "Greece",
+        },
+        {
+                "name": "India",
+        },
+        {
+                "name": "Egypt",
+        },
+        {
+                "name": "Israel",
+        },
+        {
+                "name": "Arabia",
+        },
+        {
+                "name": "Persia",
+        },
+        {
+                "name": "Maya",
+        },
+        {
+                "name": "Sumer",
+        },
+        {
+                "name": "England",
+        },
+        {
+                "name": "France",
         },
                 // from Late Anthropocene
         {
