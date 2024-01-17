@@ -1,1 +1,11 @@
-
+[
+        // from Devonian
+        {
+                "name": "Lepidodendron",
+                "requiredEra": ["Devonian"],
+                "classification": "Fern",
+                "type": Land,       
+        },
+        {
+        }
+]
