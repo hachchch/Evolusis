@@ -1,1 +1,11 @@
-
+[
+        {
+                "name": "Saurischia",
+                "type": "Land",
+                "classification": "Reptile",
+                "ai": "AttackerAI",
+                "atk": 60,
+                "def": 60,
+                "weight": 25
+        }
+]
