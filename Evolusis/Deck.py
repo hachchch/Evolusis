@@ -1,4 +1,4 @@
-# Borrowed from https://github.com/XXXalice/cardgame/blob/master/cardgame/Deck.py I don't know Python yet, so I'll borrow a little bit from orher repo
+# Borrowed from https://github.com/XXXalice/cardgame/blob/master/cardgame/Deck.py I don't know Python yet, so I'll borrow a little bit from other repo
 
 class Deck:
     def __init__(self):
