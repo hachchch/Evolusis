@@ -23,4 +23,8 @@ class cards{
   setMessage(message) {
     this.message = message;
   }
+  //何らかの処理
+  cardFunction() {
+    console.log(`${this.message}`);
+  }
 }
