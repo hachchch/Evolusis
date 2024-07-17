@@ -151,6 +151,7 @@ evolve.setRequires(0);
 evolve.setObsolete(19);
 evolve.setChance(15);
 evolve.cardAdd();
+/*
 const warrior = new cards();
 warrior.setName("戦士");
 warrior.setPower(2);
@@ -162,6 +163,7 @@ warrior.setRequires(0);
 warrior.setObsolete(2);
 warrior.setChance(100);
 warrior.cardAdd();
+*/
 const bowman = new cards();
 bowman.setName("弓兵");
 bowman.setPower(1);
@@ -211,6 +213,35 @@ spearman.setRequires(2);
 spearman.setObsolete(5);
 spearman.setChance(100);
 spearman.cardAdd();
+
+//cards.jsonを読み込む
+async function cardsJSONLoad() {
+  const requestURL =
+    "https://raw.githubusercontent.com/hachchch/Evolusis/main/jsons/cards.json";
+  const request = new Request(requestURL);
+
+  const response = await fetch(request);
+  const cardsJSON = await response.json();
+  console.log(cardsJSON[0].name);
+  cardsCreate(cardsJSON);
+}
+
+function cardsCreate(obj) {
+  const getCards = new cards();
+    getCards.setName(obj.name);
+    getCards.setPower(obj.power);
+    getCards.setCost(obj.cost);
+    getCards.setProduction(obj.production);
+    getCards.setMessage(obj.message);
+    getCards.setMessage2(obj.message2);
+    getCards.setMessage3(obj.message3);
+    getCards.setUniqueEffect(obj.uniqueEffect);
+    getCards.setRequires(obj.requires);
+    getCards.setObsolete(obj.obsolete);
+    getCards.setChance(obj.chance);
+    getCards.cardAdd();
+}
+cardsJSONLoad();
 /*最初から所持*/
 cardOwn.push({
         seed:Math.round(Math.random()*999999999),
