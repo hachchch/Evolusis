@@ -1,0 +1,17 @@
+{
+    "cards": [
+        {
+            "name": "戦士",
+            "cost": 1,
+            "power": 2,
+            //"production": 0,
+            "chance": 100,
+            "uniqueEffect": "",
+            "message": "解説！",
+            "message2": "JSON",
+            "message3": "",
+            "requires": 0,
+            "obsolete": 2
+        }
+    ]
+}
