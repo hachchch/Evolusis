@@ -4,7 +4,6 @@
             "name": "戦士",
             "cost": 1,
             "power": 2,
-            //"production": 0,
             "chance": 100,
             "uniqueEffect": "",
             "message": "解説！",
