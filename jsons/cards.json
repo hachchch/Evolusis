@@ -1,7 +1,7 @@
 {
     "cards": [
         {
-            "name": "戦士",
+            "name": "戦士"
             "cost": 1,
             "power": 2,
             "chance": 100,
@@ -10,7 +10,7 @@
             "message2": "JSON",
             "message3": "",
             "requires": 0,
-            "obsolete": 2,
-        },
+            "obsolete": 2
+        }
     ]
 }
