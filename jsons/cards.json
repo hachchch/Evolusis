@@ -5,12 +5,12 @@
             "cost": 1,
             "power": 2,
             "chance": 100,
-            "uniqueEffect": "",
+            "uniqueEffect": ".",
             "message": "解説！",
             "message2": "JSON",
-            "message3": "",
+            "message3": ".",
             "requires": 0,
-            "obsolete": 2,
+            "obsolete": 2
         }
     ]
 }
