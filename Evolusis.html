@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Evolusis</title>
+  </head>
+  <body>
+      <div align="center"><canvas class="canvas" width="1340" height="610">
+      </canvas></div>
+      現在のプレイヤー<t id="currentPlayerIndex"></t>
+      2人対戦モード<input id="toggle" type='checkbox' onclick="toggleMulti();" /><br>
+      <input type="button" onclick="drawCardTrigger(currentPlayer)" value="カードを引く" />
+      <input type="button" onclick="nextTurn()" value="次のターン" />
+      技術力:<t id="technologyCounter">--</t>
+      生産力:<t id="productionCounter">--</t>
+      金:<t id="goldCounter">--</t><br>
+      味方の都市体力:<t id="hpYouCounter">--</t><br>
+      敵の都市体力:<t id="hpEnemyCounter">--</t><br>
+      ログ<br><t id="log"></t>
+      <script type="text/javascript" src="./js/players.js"></script>
+      <script type="text/javascript" src="./js/cards.js"></script>
+      <script type="text/javascript" src="./js/main.js"></script>
+  </body>
+</html>
