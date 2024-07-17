@@ -6,8 +6,8 @@
         "chance": 100,
         "uniqueEffect": ".",
         "message": "解説！",
-        "message2": "JSON",
-        "message3": ".",
+        "message2": "",
+        "message3": "",
         "requires": 0,
         "obsolete": 2
     }
